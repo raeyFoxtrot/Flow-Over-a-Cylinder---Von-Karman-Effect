@@ -54,7 +54,7 @@ The simulation is set up to capture unsteady, laminar (or mildly turbulent) flow
 ---
 
 ## Post-Processing & Results
-The simulation yields the following key insights:
+The simulation yields the following key results:
 1.  **Vortex Shedding:** Visualized using vorticity magnitude contours and velocity streamlines.
 2.  **Aerodynamic Forces:** Monitor plots of $C_D$ and $C_L$ over flow time. The lift coefficient will exhibit a harmonic sinusoidal oscillation once shedding begins.
 3.  **Strouhal Number ($St$):** Calculated using the frequency of vortex shedding ($f$), extracted via Fast Fourier Transform (FFT) of the $C_L$ history: 
